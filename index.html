@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>日本語学習ツール</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px 16px;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    color: #333;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+    transition: transform 0.15s;
+}
+
+.menu a:active {
+    transform: scale(0.98);
+}
+
+.jft { background: #e4edf9; }
+.kanji { background: #e5f2e6; }
+.kana { background: #fff0dc; }
+.clock { background: #eee6f7; }
+
+.arrow {
+    font-size: 24px;
+    color: #666;
+}
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 12px;
+    color: #999;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>日本語学習ツール</h1>
+<p class="subtitle">使いたい練習を選んでください</p>
+
+<div class="menu">
+
+<a class="jft" href="https://cpro-room.github.io/JFT_Training/">
+    <span>JFT試験対策</span>
+    <span class="arrow">›</span>
+</a>
+
+<a class="kanji" href="https://cpro-room.github.io/Irodori_Kanji/">
+    <span>漢字練習</span>
+    <span class="arrow">›</span>
+</a>
+
+<a class="kana" href="https://cpro-room.github.io/hiragana-katakana/">
+    <span>ひらがな・カタカナ</span>
+    <span class="arrow">›</span>
+</a>
+
+<a class="clock" href="https://cpro-room.github.io/Clock/">
+    <span>とけい</span>
+    <span class="arrow">›</span>
+</a>
+
+</div>
+
+<footer>
+日本語学習ツール
+</footer>
+
+</div>
+
+</body>
+</html>
